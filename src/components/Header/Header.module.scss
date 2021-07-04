@@ -1,0 +1,13 @@
+.header {
+    background-color: #00ff00;
+    grid-area: header;
+    height: 80px;
+    display: flex;
+    align-items: center;
+      .logo {
+      width: 70px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-left: 10px;
+      }
+  }

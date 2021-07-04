@@ -1,0 +1,45 @@
+.my_post {
+  display: flex;
+  flex-direction: column;
+  .title {
+
+  }
+  .post_messages {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    .my_post_text {
+      max-width: 400px;
+      background-color: #808080;
+      margin-bottom: 10px;
+    }
+    .post_messages_btn {
+      max-width: 100px;
+      background-color: green;
+      color: #fff;
+      margin-bottom: 10px;
+      display: inline-block;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .posts {
+
+    .posts_item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 50px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      img {
+        border-radius: 50%;
+      }
+      .post_text {
+        margin-left: 50px;
+      }
+    }
+
+  }
+}

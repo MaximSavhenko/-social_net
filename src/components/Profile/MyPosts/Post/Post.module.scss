@@ -1,0 +1,20 @@
+.posts_item {
+  margin-bottom: 50px;
+  .wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+  img {
+    border-radius: 50%;
+  }
+  .post_text {
+    margin-left: 50px;
+  }
+  span {
+    cursor: pointer;
+  }
+}

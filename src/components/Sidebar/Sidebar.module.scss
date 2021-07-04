@@ -1,17 +1,23 @@
-.sidebar{
-    grid-area: sidebar;
-    background-color: #00ff00;
-    width: 300px;
-    padding: 10px;
-    
-    .menu {
-      .item {
-        a {
-        }
+.sidebar {
+  grid-area: sidebar;
+  background-color: burlywood;
+  width: 300px;
+  padding: 10px;
+
+  .menu {
+  }
+
+  .item {
+    a {
+      color: #fff;
+      &.active {
+          color: gold;     
       }
     }
-    
-    .settings {
-      padding-top: 50px;
-    }
+   
   }
+
+  .settings {
+    padding-top: 50px;
+  }
+}

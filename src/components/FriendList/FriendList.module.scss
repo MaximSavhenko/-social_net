@@ -1,0 +1,15 @@
+.Friend {
+  padding: 40px 0 0 0;
+
+  h2 {
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  &List {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+  }
+}

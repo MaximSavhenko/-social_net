@@ -4,8 +4,7 @@ import s from "./Dialogs.module.scss";
 import DialogsItem from "./DialogsItem/DialogsItem";
 import Messages from "./Messages/Messages";
 
-const Dialogs = (props) => {
-  
+const Dialogs = (props) => {  
 
   let dialogsElements = props.state.dialogs.map((d) => (
     <DialogsItem name={d.name} id={d.id} />

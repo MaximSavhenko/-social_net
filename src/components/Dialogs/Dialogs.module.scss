@@ -24,3 +24,17 @@
 
 .messages {
 }
+
+.sendMEssage {
+    padding-top: 40px;
+    textarea {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    button {
+        width: 100%;
+        max-width: 150px;
+        background-color: #eee;
+    }
+}

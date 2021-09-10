@@ -13,14 +13,23 @@ const MyPosts = (props) => {
   let onAddPost = () => {
     let text = newPostElement.current.value
     props.addPost(text)
-    newPostElement.current.value = ''
   };
+
+  let onPostChange = () => {
+    let text = newPostElement.current.value
+    props.updateNewPostText(text)
+  } 
 
   return (
     <div className={s.my_post}>
       <span className={s.title}>My posts</span>
       <div className={s.post_messages}>
-        <textarea className={s.my_post_text}  ref={newPostElement} />
+        <textarea 
+          className={s.my_post_text}
+          onChange= { onPostChange }
+          ref={newPostElement} 
+          value= { props.newPostText }
+        />
         <button
           type="submit"
           className={s.post_messages_btn}
